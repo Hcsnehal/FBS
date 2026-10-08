@@ -1,0 +1,11 @@
+# 4. Sum of all odd numbers between 1 to n
+def sum_oddNum():
+  num=int(input('enter a num='))
+  sum=0
+  for i in range(1,num+1):
+   
+    if(i % 2 != 0):
+     sum=sum+i
+  print(sum)    
+sum_oddNum()  
+  
